@@ -1,0 +1,39 @@
+html, body {
+	margin:0;
+	top:0;
+	left:0;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#topnav {
+	width:100%;
+	background-color:white;
+	text-align: center;
+	position:fixed;
+	top: 0;
+	box-shadow: 0em 0em 0.5em #ccc;
+
+}
+
+#topnav div {
+	display: inline-block;
+	margin: 0% 5%;
+}
+
+#topnav div: hover {
+	background-color: #f2f2f2;
+}
+
+#sidenav {
+	display: none;
+}
+
+.gallery {
+    width: 50%;
+    padding-top: 10%;
+    margin: auto;
+}
+
+.post img {
+	width: 100%;
+}
