@@ -1,0 +1,53 @@
+html, body{
+	background: linear-gradient(to bottom right, #FA594E, #FAE081);
+	font-family: Playfair Display;
+}
+
+h1 {
+	position: right;
+	color: white;
+	width: 25em;
+}
+
+.line1 {
+	text-align: right;
+	width: 25em;
+	color: white;
+	font size: 10pt;	
+}
+
+.line2 {
+	text-align: left;
+	color: white;
+	margin: 0 auto;
+	font-size: 12pt;
+	white-space: nowrap;
+
+} 
+
+.typing > *{
+	overflow:hidden;
+	white-space: nowrap;
+	animation: typingAnim 5s steps(50);
+}
+
+@keyframes typingAnim{
+	from { width: 0;}
+	to { width: 100% }
+}
+
+.line3 {
+	text-align: right;
+	width: 25em;
+	color: white;
+	font-size: 18pt;
+}
+
+.line4 {
+	text-align: right;
+	color: white;
+	width: 25em;	
+	font size: 12pt;
+}
+
+
