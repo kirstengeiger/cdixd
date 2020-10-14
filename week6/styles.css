@@ -1,0 +1,170 @@
+html, body{
+	background-color: #F1FAEE;
+	font-family: "Helvetica Neue", "Helvetica Neue Bold", sans-serif;
+	font color: #1D3557;
+}
+
+#topnav {
+	color: #1D3557;
+	display: inline-flex;
+	text-align:center;
+	font-size: 40px;
+	padding-left: 440px;
+	padding-top: 0;
+	padding-bottom: 70px;
+}
+
+#topnav div{
+	align-items: center;
+	position: absolute;
+	top: 0;
+}
+
+#topnav h1{
+	text-align: center;
+}
+
+.switch {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	margin: 1%;
+	border-radius: 1em;
+	padding: 0.1% 1%;
+	border: 0.05em solid #1D3557;
+}
+
+.switch h3 {
+	font-weight: 100px;
+	font-size: 15px;
+}
+
+#nav {
+	width: 100%;
+	background-color:#F1FAEE;
+	text-align: center;
+	color: #1D3557;
+}
+
+#nav div {
+	display: inline-block;
+	padding: 5%;
+	top: 20px;
+}
+
+#nav h2 {
+	font-size:20px;
+	font-family: "Helvetica Neue";
+	font color: #1D3557;
+	border-radius: 0.5em;
+}
+
+#nav h2: hover {
+	color: #D7EAD1;
+}
+
+.text {
+	position: absolute;
+	align-items: center;
+	display: inline-flex;
+	vertical-align: middle;
+	width: 473px;
+	height: 100px;
+	left: 610px;
+	top: 300px
+}
+
+.text p {
+	font-weight: 800;
+	font-size: 50px;
+	line-height: 31px;
+	text-align: center;
+	line-height: 50px;
+	color: #1D3557;
+	float: right;
+}
+
+.shopmen {
+	position: absolute;
+	align-items: center;
+	text-align: center;
+	background-color: #D7EAD1;
+	width: 200px;
+	height:18px;
+	left: 720px;
+	line-height: 0px;
+	padding: 25px;
+}
+
+.shopmen p {
+	font-weight: 400;
+	color: #1D3557;
+}
+
+.producttext {
+	position: absolute;
+	width: 360px;
+	left: 470px;
+	top: 750px;
+}
+
+.producttext p {
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 10px;
+	text-align: center;
+	color: #1D3557;
+}
+
+#images {
+	line-height: 55vh;
+	position: absolute;
+	top: 800px
+}
+
+#images img {
+	flex-grow: 1;
+	flex-basis: auto;
+	width: 16%;
+	height: auto;
+}
+
+#imageslabel {
+	position: absolute;
+	text-align: center;
+	align-items: center;
+	top: 900px;
+	left: 230px;
+}
+
+
+#imageslabel p {
+	flex-basis: auto;
+	display: inline-flex;
+	color: #1D3557;
+	font-size: 20px;
+	padding: 61px;
+}
+
+form {
+	position: absolute;
+	left: 600px;
+	top: 1100px;
+}
+
+input {
+	border: #1D3557;
+	color: #1D3557;
+}
+
+.newsletter form{
+	border: #1D3557;
+}
+
+.newsletter label {
+	font-weight: 500; 
+	font-color: #1D3557; 
+	font-size: 50px;
+}
+
+
