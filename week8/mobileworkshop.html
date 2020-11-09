@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kirsten Mobile Groupwork</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+</head>
+<style type="text/css">
+	html, body {
+		margin:0;
+		display:flex;
+	}
+
+	.topnav {
+		background-color: #DCFFE8;
+		width: 100vw;
+		height: 10vh;
+		position: absolute;
+	}
+	
+	.boxes {
+		width:100vw;
+		height:100vh;
+		margin-top: 3vh;
+		padding: 0;
+		justify-content:center;
+		align-items:center;
+		display:inline-flex;
+		flex-wrap: nowrap;
+	}
+
+	.main {
+		background-color: #4E72F2;
+		height:70vh;
+		width: 60vw;
+		margin: 3vh;
+		margin-top: 10px;
+	}
+
+	.side {
+		background-color: #E5E5E5;
+		height: 70vh;
+		width: 20vw;
+		margin: 3vh;
+		margin-top: 10px;
+	}
+
+	@media screen and (max-width:480px){
+		.topnav {
+			height: 8vh;
+			width: 100%;
+		}
+		.boxes {
+			flex-wrap:wrap;
+			justify-content:center;
+		}
+		.main {
+			height: 75vh;
+			width: 90vw;
+			margin: 55px 3px 5px;
+		}
+		.side {
+			height:25vh;
+			width: 90vw;
+		}
+	}
+
+</style>
+
+<body>
+
+<div class='topnav'></div>
+
+<div class='boxes'>
+	<div class='main'></div>
+	<div class='side'></div>
+</div>
+
+</body>
+
+</html>
