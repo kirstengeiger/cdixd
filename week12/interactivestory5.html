@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Can You Spot Him?</title>
+</head>
+
+<style type ="text/css">
+html, body {
+	background-color:#B6CAFF;
+}
+
+.background {
+	position: relative;
+	left: 0vw;
+	top: -3vh;
+}
+
+.typewriter{
+	position: absolute;
+	left: 30vw;
+	top: 86vh;
+}
+
+.typewriter h4 {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 33px;
+	color: #00309D;
+ 	letter-spacing: 0.05em;
+ 	 overflow: hidden;
+ 	border-right: .15em white; /*The typwriter cursor */
+  	white-space: nowrap; /* Keeps the content on a single line */
+  	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+ 	animation: 
+    	typing 4s steps(40, end),
+    	blink-caret .75s step-end infinite;
+	}
+
+/* The typing effect */
+@keyframes typing {
+	  from { width: 0 }
+	  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+ 		from, to { border-color: white }
+ 		50% { border-color: white; }
+}
+
+.mystery {
+	position: absolute;
+	left: 41vw;
+	top: 100vh;
+}
+
+.mystery:hover {
+	cursor: pointer;
+	transform: scale(1.2);
+}
+
+</style>
+
+<body>
+
+<div class="background">
+	<img src="images/interactivestory5.png" width="1250px" height="530px">
+</div>
+
+<div class="typewriter">
+	<h4>BUT WHO WAS HE REALLY?</h4>
+</div>
+
+<a href="interactivestory6.html" class="mystery">
+	<img src="images/mystery.png" width="250px" height="280px">
+</a>
+
+
+
+</body>
+</html>
