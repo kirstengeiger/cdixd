@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Living Collections</title>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+</head>
+
+<style type="text/css">
+html, body {
+	background-color: #F6F1EB;
+	font-family: 'DM Serif Display';
+}
+
+h1 {
+	font-size: 80px;
+}
+
+.circle{
+	position: absolute;
+	left: 41px;
+	top: 35px;
+}
+
+.flower{
+	position: absolute;
+	left: 58px;
+	top: 40px;
+}
+
+.flowerfill:hover{
+	stroke: #DD6848;
+	fill: #F6F1EB;
+}
+
+.work {
+	font-family: Avenir;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+	position: absolute;
+	left: 1157px;
+	top: 30px;
+}
+
+.about {
+	font-family: Avenir;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+	position: absolute;
+	left: 1150px;
+	top: 59px;
+}
+
+h1 {
+	font-weight: normal;
+}
+
+.living {
+	position: absolute;
+	left: 317px;
+	top: 130px;
+}
+
+.collections {
+	position: absolute;
+	left: 317px;
+	top: 200px;
+}
+
+.intro {
+	font-family: Avenir;
+	font-size: 20px;
+	font-weight: normal;
+	color: #F6F1EB;
+	position: absolute;
+	left: 116px;
+	top: 600px;
+}
+
+.blob {
+	position: absolute;
+	left: 500px;
+	top: 40px;
+	z-index: -1;
+}
+
+.halfmoon {
+	position: absolute;
+	width: 296px;
+	height: 123px;
+	left: 432px;
+	top: 370px;
+	z-index: -1;
+}
+
+.smallcircle{
+	position: absolute;
+	left: 650px;
+	top: 380px;
+	z-index: -1;
+}
+
+.leaf {
+	position: absolute;
+	left: 750px;
+	top: 150px;
+	z-index: -1;
+}
+
+.rectangle {
+	position: absolute;
+	left: 0px;
+	top: 590px;
+	z-index: -1;
+}
+
+.interactive {
+	position: absolute;
+	left: 475px;
+	top: 1000px;
+}
+
+#main {
+	height:418px;
+	width:600px;
+	overflow-x:scroll;
+	overflow-y:hidden;
+	white-space:nowrap;
+	scroll-snap-type: x mandatory;
+	position: absolute;
+	left: 36%;
+	top: 133%;
+}
+.featured {
+	display:inline-block;
+	width:80%;
+	height: 90%;
+	overflow:hidden;
+	vertical-align:top;
+	margin: 0px 70px ;
+	scroll-snap-align: start;
+}
+.featured img {
+	object-fit: cover;
+	width:100%;
+}
+
+</style>
+
+<body>
+
+<div class="circle">
+	<svg width="89" height="80" viewBox="0 0 89 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<path d="M88.5 40C88.5 61.7664 68.852 79.5 44.5 79.5C20.148 79.5 0.5 61.7664 0.5 40C0.5 18.2336 20.148 0.5 44.5 0.5C68.852 0.5 88.5 18.2336 88.5 40Z" stroke="#DD6848"/>
+	</svg>
+</div>
+
+<a href="cdixdfinal.html" class="flower">
+	<svg width="60" height="70" viewBox="0 0 48 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<path class="flowerfill" d="M27.7473 24.4289C28.0693 21.9075 27.942 19.8798 27.7473 18.4433C27.5002 16.5952 27.0061 14.7022 26.9986 14.7022C26.9537 14.7097 27.6874 17.2012 27.7473 20.6879C27.7848 22.8726 27.4403 23.5236 27.7473 23.6807C28.7206 24.182 35.3692 19.3112 34.4857 12.4576C33.6547 6.00061 26.8863 3.6662 26.4221 3.56894C26.1226 3.5016 25.8606 3.47915 25.8606 3.47915C25.1942 3.44174 24.7974 3.65124 23.4347 3.43426C20.6046 2.98534 20.0431 1.7059 17.5498 0.927771C16.6439 0.650935 13.2672 -0.396554 10.789 1.38418C8.63267 2.93296 8.36313 5.76118 8.31821 6.51687C10.4296 6.74881 13.387 7.37731 16.4492 9.12062C24.3407 13.6099 26.5793 21.8925 27.051 23.8079C26.8114 22.5509 24.9247 13.5874 16.4492 9.12062C10.9836 6.24751 5.74263 6.77874 3.78849 7.07802C2.7927 7.31745 1.59476 7.74393 1.48246 8.47717C1.39261 9.03084 1.99158 9.2553 2.16379 10.0035C2.46327 11.3278 0.958357 12.1733 0.501642 13.6772C0.00749093 15.3307 1.07815 16.8047 1.8044 18.2263C4.12541 22.8053 1.58728 24.4588 3.49649 31.0281C4.20777 33.4897 5.27843 36.9913 8.40805 38.7346C9.00702 39.0638 10.3921 39.8195 12.1142 39.6474C14.8096 39.3781 16.4867 37.0586 18.3285 34.6719C23.5395 27.938 27.1334 24.6609 27.0136 24.5636C26.9088 24.4813 24.5803 27.0551 15.1764 38.2782C14.525 43.6952 15.401 45.3413 16.3444 45.8201C17.722 46.516 19.0622 44.6454 21.6154 45.3039C22.993 45.663 22.993 46.3065 26.0028 47.743C27.8671 48.6259 28.4811 48.6708 28.9602 48.6184C29.8811 48.3266 31.1914 47.743 32.0524 46.5085C33.5573 44.3312 32.7487 41.4656 31.0117 35.9812C28.9827 29.5691 27.0286 23.8304 27.0435 23.8229C27.0585 23.8154 29.2522 27.4517 30.3903 32.9585C31.0791 36.2805 32.5241 39.4454 32.9584 42.8049C33.1081 43.9571 33.3926 44.2713 33.6397 44.3312C34.5531 44.5631 35.2419 41.3833 37.5405 40.7548C39.1877 40.3058 40.2433 41.5553 41.2841 40.9194C42.2349 40.3358 42.3173 38.6897 42.1975 37.2158C40.7749 36.6546 38.6261 35.6595 36.3425 33.9685C30.1731 29.3671 28.7356 23.8678 26.9836 24.2718C24.6701 24.8105 25.2915 34.8514 25.299 34.8514C25.4263 34.8514 24.2508 25.5063 27.0061 24.5636C27.8971 24.2568 28.4062 25.0948 31.4909 25.9253C34.0665 26.6212 35.9832 26.6511 35.9832 26.6735C35.9832 26.696 33.9017 26.7558 31.4909 25.9253C28.7356 24.9751 27.2157 23.4338 26.9986 23.6807C26.759 23.9501 28.526 25.8804 29.2447 26.6735C30.3828 27.923 31.1465 28.6638 32.2396 29.6664C34.0515 31.3349 34.7628 32.3 35.6238 33.1754C37.1137 34.6943 39.6893 36.5873 44.4062 38.0537C46.5325 36.8042 47.8652 35.0609 47.5957 33.6992C47.5133 33.2802 47.2363 32.6741 46.9144 32.1728C46.3379 31.2675 45.9111 31.1852 45.4843 30.6091C44.6308 29.4643 45.3046 28.4617 44.9003 26.8381C44.5634 25.4989 43.9195 25.4315 42.789 23.748C40.4829 20.3213 41.2466 17.7474 39.3449 16.8571C38.9181 16.6551 38.2143 16.4755 37.0987 16.7598C35.6163 18.7126 34.2012 20.1342 33.1605 21.0844C30.9069 23.142 29.0052 24.8404 27.0061 24.4289C26.4071 24.3092 26.3173 24.0997 25.5087 23.6807C22.1095 21.9149 18.306 22.7155 17.2728 22.9325C14.1132 23.5984 12.0468 25.2071 12.0318 25.1771C12.0169 25.1472 13.8961 23.5909 16.5241 22.9325C21.9223 21.5708 26.6542 24.9302 26.9911 24.2718C27.2232 23.8154 25.0519 22.0272 22.5138 20.6879C18.9424 18.8099 15.7829 18.4208 15.7754 18.4433C15.7679 18.4657 18.92 18.6827 22.5138 20.6879C25.4113 22.304 25.4862 23.3515 26.9537 23.5236C30.3978 23.9201 33.9541 18.5929 35.6612 15.2035C38.5662 9.44235 38.3341 3.34448 39.1727 3.3744C39.3673 3.38189 39.6069 3.71858 39.854 4.90074C40.0112 6.8386 39.9663 9.80897 38.7459 13.0936C35.9832 20.5308 29.3496 23.7181 27.7473 24.4289Z" fill="#DD6848" stroke="#F6F1EB" stroke-miterlimit="10" stroke-linejoin="round"/>
+	</svg>
+</a>
+
+<a href="work.html" class="work">
+	<p>WORK</p>
+</a>
+
+<a href="about.html" class="about">
+	<p>ABOUT</p>
+</a>
+
+<div class='living'>
+	<h1>Living</h1>
+</div>
+
+<div class='collections'>
+	<h1>Collections</h1>
+</div>
+
+<div class='blob'>
+	<svg width="500" height="520" viewBox="0 0 602 543" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M524.782 114.97C397.784 -33.2093 120.607 -41.9901 30.6805 111.023C-30.0154 214.291 4.36851 374.625 89.788 461.269C236.005 609.566 530.36 540.524 590.354 378.394C624.535 286.018 577.711 176.731 524.782 114.97Z" fill="#EDCBBB"/>
+	</svg>
+</div>
+
+<div class='halfmoon'>
+	<svg width="275" height="123" viewBox="0 0 296 123" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M296 123C279.011 45.9552 208.205 -5.88179 134.545 0.536379C69.7663 6.17686 14.2259 55.8864 0 123C98.6667 123 197.333 123 296 123Z" fill="#005096"/>
+	</svg>
+</div>
+
+<div class="smallcircle">
+	<svg width="73" height="73" viewBox="0 0 73 73" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M36.5 73C56.6584 73 73 56.6584 73 36.5C73 16.3416 56.6584 0 36.5 0C16.3416 0 0 16.3416 0 36.5C0 56.6584 16.3416 73 36.5 73Z" fill="#DBA74A"/>
+</svg>
+</div>
+
+<div class="leaf">
+	<svg width="300" height="400" viewBox="0 0 345 463" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<path d="M128.396 74.4584C139.02 88.6944 193.828 165.045 176.218 265.521C160.437 355.546 92.5676 430.407 0.87207 460.331" stroke="#006837" stroke-width="6" stroke-miterlimit="10"/>
+		<path d="M154.651 331.082C180.259 324.638 214.503 313.147 251.232 291.746C295.397 266.008 325.928 235.991 345 214.009C320.958 215.77 265.823 223.216 213.725 263.648C183.823 286.857 165.378 312.819 154.651 331.082Z" fill="#006837"/>
+		<path d="M52.9132 182.634C65.7782 200.429 88.1699 226.363 123.239 247.258C141.739 258.282 159.293 265.24 173.874 269.736C172.589 257.982 168.857 241.535 157.933 225.717C124.749 177.67 57.536 182.25 52.9132 182.634Z" fill="#006837"/>
+		<path d="M180.437 198.556C190.292 188.347 201.751 174.148 211.381 155.473C233.06 113.42 232.704 73.3251 231.072 53.3853C220.007 62.929 193.331 88.5633 182.313 131.122C174.83 160.025 177.699 184.629 180.437 198.556Z" fill="#006837"/>
+		<path d="M42.5988 79.6096C50.1564 90.8299 69.4351 116.118 104.486 131.122C129.25 141.724 151.548 142.763 164.497 142.361C158.505 132.255 149.053 119.321 134.491 107.707C98.0624 78.6355 56.1763 78.9353 42.5988 79.6096Z" fill="#006837"/>
+		<path d="M107.299 0C113.3 6.56545 122.855 18.7223 128.865 36.5268C135.373 55.8016 134.613 72.4635 133.554 81.4828C128.968 78.8791 113.084 69.1199 105.423 48.7023C96.4497 24.782 105.461 4.01794 107.299 0Z" fill="#006837"/>
+	</svg>
+</div>
+
+<div class='rectangle'>
+	<svg width="1259" height="281" viewBox="0 0 1259 281" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<rect width="1259" height="140" fill="#303923"/>
+	</svg>
+</div>
+
+<div class="intro">
+	<p>A COLLECTION OF THE CODED WORK <br> CREATED BY KIRSTEN GEIGER OVER THE <br> COURSE OF THE FALL SEMESTER</p>
+</div>
+
+<div id='main'>
+	<a href="interactive.html" class='featured' id='post1'>
+		<img src="images/interactive.png">
+	</a>
+	<a href="svg.html" class='featured' id='post2'>
+		<img src="images/svg.png">
+	</a>
+	<a href="mode.html" class='featured' id='post3'>
+		<img src="images/mode.png">
+	</a>
+</div>
+
+<div id='selector'>
+	<div class='option' id='option1'></div>
+	<div class='option' id='option2'></div>
+	<div class='option' id='option3'></div>
+</div>
+
+<script type="text/javascript">
+
+let options = document.querySelectorAll('.option')
+	post1 = document.querySelector('#post1')
+	post2 = document.querySelector('#post2')
+	post3 = document.querySelector('#post3')
+
+options.forEach(item=>{
+		
+	/*item.onclick=function() {
+		id=item.id
+		console.log(id)
+		split = id.split('option')
+		console.log(split)
+		ref = split[1]
+		console.log(ref)
+		console.log('click')
+		element = document.querySelector('#post'+ref)
+		element.scrollIntoView({
+			behavior: "smooth"
+		})
+	}*/
+})
+
+</body>
+
+</html>
